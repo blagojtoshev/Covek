@@ -70,7 +70,7 @@ int main()
 			cout<<"\t"<<(*itr).poeni<<"   ";
 		}
 	}
-	//zapi[uvawe na podatocite vo datoteka
+	//zapisuvanje na podatocite vo datoteka
 	ofstream datotekaVektor("Covek.txt");
 	cout<<endl<<endl;
 	datotekaVektor<<"Spisok na luge koi se sortirani po broj poeni "<<endl;
